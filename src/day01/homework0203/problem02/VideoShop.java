@@ -11,5 +11,4 @@ public class VideoShop {
 			content[i].show();
 		}
 	}
-
 }

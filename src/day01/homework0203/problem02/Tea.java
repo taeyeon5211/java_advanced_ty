@@ -12,8 +12,8 @@ public class Tea extends Beverage{
         return amount;
     }
 
-    public static void setAmount(int amount) {
-        Tea.amount += amount;
+    public void setAmount(int amount) {
+        this.amount += amount;
     }
 
     @Override

@@ -4,6 +4,7 @@ public abstract class Beverage {
 
     private String name;
     protected int price;
+    protected static int cnt; // static 일시 증가 static 아니면 1로 고정됨
 
     public Beverage(String name) {
         this.name = name;
@@ -28,6 +29,7 @@ public abstract class Beverage {
     public abstract void calcPrice();
 
     public void print() {
-
+        cnt++;
+        System.out.println(cnt + "번째 판매 음표는 " + getName() + "이며, 가격은 " + getPrice());
     }
 }

@@ -13,7 +13,7 @@ public class Coffee extends Beverage {
     }
 
     public void setAmount(int amount) {
-        Coffee.amount += amount;
+        this.amount += amount;
     }
 
     @Override

@@ -4,14 +4,19 @@ public class Prob1 {
     public static void main(String[] args) {
         Truck truck = new Truck(100, "트럭", 4);
         Bike bike = new Bike(25, "자전거", 2);
+
         wheelNumberInfo(truck);
         wheelNumberInfo(bike);
+
         velocityInfo(truck);
         velocityInfo(bike);
+
         truck.speedDown(100);
         bike.speedDown(25);
+
         truck.stop();
         bike.stop();
+
         truck.speedUp(10);
         velocityInfo(truck);
     }

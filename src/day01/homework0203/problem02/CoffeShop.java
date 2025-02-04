@@ -20,7 +20,8 @@ public class CoffeShop {
 	public static void getSalesInfo(Beverage[] beverages) {
 		for (int i = 0; i < beverages.length; i++) {
 			beverages[i].calcPrice();
-			System.out.println((i + 1) + "번째 판매 음표는 " + beverages[i].getName() + "이며, 가격은 " + beverages[i].getPrice());
+			beverages[i].print();
+			//System.out.println((i + 1) + "번째 판매 음표는 " + beverages[i].getName() + "이며, 가격은 " + beverages[i].getPrice());
 		}
 	}
 
