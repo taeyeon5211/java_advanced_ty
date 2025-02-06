@@ -9,15 +9,33 @@ public class RemoteControlMain {
         System.out.println("리모컨 최소 볼륨 : " + RemoteControl.MIN_VOLUME);
 
         RemoteControl remoteControl;
+        RemoteControl.changeBattery();
 
         remoteControl = new Tv();
         remoteControl.turnOn();
         remoteControl.setVolume(10);
+        remoteControl.setMute(true);
+        remoteControl.setMute(false);
         remoteControl.turnOff();
 
         remoteControl = new Radio();
         remoteControl.turnOn();
-        remoteControl.setVolume(-10);
+        remoteControl.setVolume(10);
+        remoteControl.setMute(true);
+        remoteControl.setMute(false);
         remoteControl.turnOff();
+
+        Radio radio = new Radio();
+        radio.turnOn();
+        radio.setVolume(10);
+        int volume1 = radio.getVolume();
+        System.out.println(volume1);
+        radio.setMute(true);
+        int volume2 = radio.getVolume();
+        System.out.println(volume2);
+        radio.setMute(false);
+        int volume3 = radio.getVolume();
+        System.out.println(volume3);
+        radio.turnOff();
     }
 }
