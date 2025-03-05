@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/day_0304/mysql/cursor_prac.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/day_0304/mysql/fucntion_prac.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/day_0304/mysql/procedure_prac.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/day_0304/mysql/trigger_prac.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/jdbc/users_advanced/mymember.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/mysql/account.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/mysql/boards.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/mysql/users.sql" dialect="MySQL" />
+  </component>
+</project>
